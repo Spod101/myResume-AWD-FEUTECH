@@ -75,3 +75,29 @@ hr{
     width: 40%;
     text-align: right;
 }
+.images {
+    width: 100%;
+    height: auto;
+}
+
+.bottom {
+    margin-top: 50px;
+}
+
+.bottom li {
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h4 {
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+
+p{
+    text-align: justify;
+}
