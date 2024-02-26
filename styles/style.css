@@ -259,7 +259,6 @@ body.night .button {
 body.night .container .header .imageq img {
     color: #FBF7F4;
     background-color: #201D24;
-    content: url("/assets/id.webp");
 }
 
 body.night .line{
