@@ -279,8 +279,6 @@ body.night .line{
     background-color: #FBF7F4;
 }
 
-
-
 body.night .logos svg{
     filter: invert(1);
 }
