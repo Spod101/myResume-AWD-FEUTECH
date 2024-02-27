@@ -279,10 +279,6 @@ body.night .line{
     background-color: #FBF7F4;
 }
 
-body.night .imageq img{
-    content: url(/assets/mainID.webp);
-}
-
 body.night .logos svg{
     filter: invert(1);
 }
