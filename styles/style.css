@@ -267,6 +267,10 @@ body.night .line{
     background-color: #FBF7F4;
 }
 
+body.night .imageq img{
+    content: url(https://media.tenor.com/w7Ch94aYd3IAAAAM/romapetrov228.gif);
+}
+
 body.night .logos svg{
     filter: invert(1);
 }
