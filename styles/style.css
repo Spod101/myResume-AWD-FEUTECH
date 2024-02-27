@@ -13,7 +13,7 @@
 }
 
 .button {
-    font-weight: bolder;
+    font-weight: bold;
     padding: 30px 30px;
     font-size: 28px;
     background-color: #FBF7F4;
@@ -254,8 +254,20 @@ body.night .button {
     background-color: #201D24;
     color: #FBF7F4;
     border-color: #FBF7F4;
-    box-shadow: 0 0 60px 3px rgba(0, 0, 255, 0.5), 0 0 70px 3px rgba(75, 0, 130, 0.5), 0 0 80px 4px rgba(238, 130, 238, 0.5);
+    animation: gradientAnimation 8s linear infinite;
 }
+
+    @keyframes gradientAnimation {
+        0% {
+            box-shadow: 0 0 80px 5px rgba(5, 0, 255, 0.5);
+        }
+        50% {
+            box-shadow: 0 0 80px 5px rgba(255, 0, 0, 0.5);
+        }
+        100% {
+            box-shadow: 0 0 80px 5px rgba(5, 0, 255, 0.5);
+        }
+    }
 
 
 body.night .container .header .imageq img {
@@ -268,7 +280,7 @@ body.night .line{
 }
 
 body.night .imageq img{
-    content: url(https://media.tenor.com/w7Ch94aYd3IAAAAM/romapetrov228.gif);
+    content: url(/assets/mainID.webp);
 }
 
 body.night .logos svg{
@@ -286,6 +298,8 @@ body.night .contact{
 body.night .contact p{
     filter: invert(1);
 }
+
+
 
 @media only screen and (max-width: 689px) {
     .button{
